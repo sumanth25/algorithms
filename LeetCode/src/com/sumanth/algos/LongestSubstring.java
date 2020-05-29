@@ -54,12 +54,18 @@ public class LongestSubstring {
     }
 }
 /*
-Complexity Analysis:
+Expand Around Center
 
-    Time complexity : O(n). We traverse the list containing nnn elements only once.
-    Each look up in the table costs only O(1) time.
+In fact, we could solve it in O(n^2) time using only constant space.
 
-    Space complexity : O(n). The extra space required depends on the number of items
-    stored in the hash table, which stores at most nnn elements.
+We observe that a palindrome mirrors around its center. Therefore, a palindrome can be expanded from its center, and there are only 2n−1 such centers.
 
+You might be asking why there are 2n−1 but not nnn centers? The reason is the center of a palindrome can be in between two letters.
+Such palindromes have even number of letters (such as "abba") and its center are between the two 'b's.
+
+Complexity Analysis
+
+    Time complexity : O(n^2). Since expanding a palindrome around its center could take O(n) time, the overall complexity is O(n^2).
+
+    Space complexity : O(1).
  */
