@@ -12,6 +12,11 @@ public class InterviewMain {
         DirectionMatrix.directionMatrix();
         MeritList.showMeritList();
 
+        /* Morgan Stanley Interview: 24/06/2020 */
+        ValidParentheses.calculate();
+        RemoveDuplicatesInplace.doIt();
+        Anagram.check();
+
         /* Klarna Interview: 25/06/2020 */
         ReversePolishCalculator.evaluateMethod();
         ConvertNumberToOrdinal.numberToOrdinalMethod();
