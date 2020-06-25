@@ -1,8 +1,6 @@
 package com.sumanth;
 
-import com.sumanth.algos.DirectionMatrix;
-import com.sumanth.algos.MaximumSwap;
-import com.sumanth.algos.MeritList;
+import com.sumanth.algos.*;
 
 public class InterviewMain {
 
@@ -13,5 +11,10 @@ public class InterviewMain {
         /* Zycus Interview: 10/06/2020 */
         DirectionMatrix.directionMatrix();
         MeritList.showMeritList();
+
+        /* Klarna Interview: 25/06/2020 */
+        ReversePolishCalculator.evaluateMethod();
+        ConvertNumberToOrdinal.numberToOrdinalMethod();
+        MaskString.maskifyMethod();
     }
 }
