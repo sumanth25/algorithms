@@ -21,5 +21,11 @@ public class InterviewMain {
         ReversePolishCalculator.evaluateMethod();
         ConvertNumberToOrdinal.numberToOrdinalMethod();
         MaskString.maskifyMethod();
+
+        /* SAP Interview: 03/07/2020 */
+        Bingo.checkAllNUmbers();
+        LargestIncrementalNumber.findLargestIncrementalNumber();
+        DeskArrangement.maxStudentsWithoutCheating();
+        TeamLeadName.maxNonRepetitiveLetters();
     }
 }
