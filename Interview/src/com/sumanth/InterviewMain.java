@@ -27,5 +27,10 @@ public class InterviewMain {
         LargestIncrementalNumber.findLargestIncrementalNumber();
         DeskArrangement.maxStudentsWithoutCheating();
         TeamLeadName.maxNonRepetitiveLetters();
+
+        /* Oracle Interview: 08/07/2020 */
+        ThreadSync.computeWithWaitAndNotify();
+        LargestNonRepeatingSubstr.findlargestSubString();
+        LargestInteger.findLargestIntegerWithOneRemoval();
     }
 }
