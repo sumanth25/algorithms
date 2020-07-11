@@ -32,5 +32,8 @@ public class InterviewMain {
         ThreadSync.computeWithWaitAndNotify();
         LargestNonRepeatingSubstr.findlargestSubString();
         LargestInteger.findLargestIntegerWithOneRemoval();
+
+        /* Philips Interview: 11/07/2020 */
+        NumberMatchesSumOfPositiveDivisors.findSumAndCompare();
     }
 }
