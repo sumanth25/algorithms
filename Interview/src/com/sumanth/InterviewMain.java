@@ -39,5 +39,9 @@ public class InterviewMain {
         /* Bazaarvoice Interview: 17/07/2020 */
         AnagramOptimized.check();
         HighestFreqSort.findFreqAndSort();
+
+        /* Uber Interview: 18/07/2020 */
+        DigitProdSumDiff.calculate();
+        FreqOfPairsWithSum.findCount();
     }
 }
