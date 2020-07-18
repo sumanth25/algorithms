@@ -35,5 +35,9 @@ public class InterviewMain {
 
         /* Philips Interview: 11/07/2020 */
         NumberMatchesSumOfPositiveDivisors.findSumAndCompare();
+
+        /* Bazaarvoice Interview: 17/07/2020 */
+        AnagramOptimized.check();
+        HighestFreqSort.findFreqAndSort();
     }
 }

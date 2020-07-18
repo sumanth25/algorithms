@@ -28,3 +28,7 @@ public class Anagram {
         return Arrays.equals(a1, a2);
     }
 }
+
+/*
+  Time Complexity O(nLogn)
+*/
