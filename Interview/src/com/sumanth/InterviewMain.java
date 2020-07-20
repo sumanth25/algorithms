@@ -27,6 +27,8 @@ public class InterviewMain {
         LargestIncrementalNumber.findLargestIncrementalNumber();
         DeskArrangement.maxStudentsWithoutCheating();
         TeamLeadName.maxNonRepetitiveLetters();
+        // New
+        TrianglePyramid.generate();
 
         /* Oracle Interview: 08/07/2020 */
         ThreadSync.computeWithWaitAndNotify();
@@ -35,6 +37,8 @@ public class InterviewMain {
 
         /* Philips Interview: 11/07/2020 */
         NumberMatchesSumOfPositiveDivisors.findSumAndCompare();
+        // New
+        StringGame.findMatchWithKShifting();
 
         /* Bazaarvoice Interview: 17/07/2020 */
         AnagramOptimized.check();
