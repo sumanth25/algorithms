@@ -47,5 +47,9 @@ public class InterviewMain {
         /* Uber Interview: 18/07/2020 */
         DigitProdSumDiff.calculate();
         FreqOfPairsWithSum.findCount();
+
+        /* Informatica Interview: 21/07/2020 */
+        InheritanceConcept.output();
+        KSumPathsInBinaryTree.print();
     }
 }
