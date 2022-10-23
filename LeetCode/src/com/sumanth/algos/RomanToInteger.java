@@ -1,4 +1,4 @@
-package com.sumanth;
+package com.sumanth.algos;
 
 public class RomanToInteger {
 
@@ -33,3 +33,11 @@ public class RomanToInteger {
         return answer;
     }
 }
+
+/*
+Complexity Analysis
+
+Time complexity : O(S) , where S is the length of roman string.
+
+Space complexity : O(1). We only used constant extra space.
+ */
