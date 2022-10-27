@@ -1,4 +1,4 @@
-package com.sumanth;
+package com.sumanth.algos;
 
 public class FirstBadVersionUsingBinarySearch {
     /**
